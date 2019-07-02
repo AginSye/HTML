@@ -1,0 +1,56 @@
+﻿<html>
+<head>
+    <title>雷电</title>
+    <meta http-equiv="content" content="text/html" charset="utf-8"/>
+ 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body onLoad="styleEvent()">
+<div id = "contentdiv">
+	<div id = "startdiv" onclick ="begin()">
+		<div id ="blinkdiv">
+				<p class= "blinktext">单击屏幕开始游戏</p><br/><br/>
+			</div>
+        </div>
+        <div id ="maindiv">
+			<audio id="music" src="image/music.mp3"  loop="loop"></audio>
+        	<div class= "plantext" id="scorediv">
+        	<label>分数:</label>
+            <label id="scorelabel">0</label>
+			</div>
+			<div class= "plantext" id="timediv">
+        	<label>时间:</label>
+            <label id="timelabel">0</label>
+			<label>秒</label>
+            </div>
+			<div class= "plantext" id="skilldiv">
+        	<label>技能点数:</label>
+            <label id="skilllabel">3</label>
+            </div>
+			<div id="box">
+			</div>
+		</div>
+        <div id ="suspenddiv">
+        	<button onmouseover="this.style.background = 'rgba(255, 251, 240, 0.6)';" onmouseout="this.style.background = 'rgba(255, 251, 240, 0.2)';">继续</button><br/>
+            <button onmouseover="this.style.background = 'rgba(255, 251, 240, 0.6)';" onmouseout="this.style.background = 'rgba(255, 251, 240, 0.2)';">游戏说明</button><br/>
+            <button onmouseover="this.style.background = 'rgba(255, 251, 240, 0.6)';" onmouseout="this.style.background = 'rgba(255, 251, 240, 0.2)';">重新开始</button>
+        </div>
+		<div id ="shuomingdiv">
+		<br>
+        	<p>移动鼠标控制飞机</p>
+			<p>右下角为本方飞机生命值</p>
+			<p>按Z,X,C键释放技能</p><br/>
+			<button onmouseover="this.style.background = 'rgba(255, 251, 240, 0.6)';" onmouseout="this.style.background = 'rgba(255, 251, 240, 0.2)';">继续</button>
+        </div>
+        <div id ="enddiv">
+			<p><label id= "gameover">失败</label></p>
+        	<p>飞机大战分数</p>
+            <p><label id= "planscore"></label></p>
+			<p>用时</p>
+            <p><label id="plantime">0</label><label>秒</label></p>
+            <div><button onmouseover="this.style.background = 'rgba(0, 0, 0, 1)';" onmouseout="this.style.background = 'rgba(0, 0, 0, 0.2)';" onclick="jixu()">重新开始</button></div>
+        </div>
+</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

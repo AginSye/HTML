@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contentdiv{
+    position: absolute;
+}
+
+
+button{
+    outline: none;
+}
+
+
+#maindiv img{
+    position: absolute;
+    z-index: 1;
+}
+
+#suspenddiv button{
+    width: 150px;
+    height: 34px;
+    margin-bottom: 40px;
+    border: 3px double #c4c9ca;
+    border-radius: 20px;
+	text-align:center;
+	font-size: 28px;
+	letter-spacing: 1px;
+	font-family:Cursive;
+	color:#E0FFFF;
+    background:rgba(255, 251, 240, 0.2); /*R G B opacity*/
+}
+
+#shuomingdiv button{
+    width: 150px;
+    height: 35px;
+    margin-top:40px;
+    border: 3px double #c4c9ca;
+    border-radius: 20px;
+	font-size: 28px;
+	letter-spacing: 4px;
+	font-family:Cursive;
+	color:#E0FFFF;
+    background:rgba(255, 251, 240, 0.2); /*R G B opacity*/
+}
+
+#gameover{
+    width: 160px;
+    height:40px;
+    line-height: 40px;
+	font-size: 20px;
+    font-weight: bold;
+	font-family:Cursive;
+}
+#planscore{
+    width: 160px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+	font-family:Cursive;
+}
+#plantime{
+    width: 160px;
+    height:40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+	font-family:Cursive;
+}
+#enddiv div button{
+	width: 150px;
+    height: 35px;
+    margin-top:30px;
+    border: 3px double #c4c9ca;
+    border-radius: 20px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-family:Cursive;
+	color:#E0FFFF;
+    background:rgba(0, 0, 0, 0.2); /*R G B opacity*/
+}
+#startdiv{
+	width:800px;
+	height:600px;
+	background-image: url(../image/load.jpg);
+}
+#blinkdiv{
+	position:absolute;
+	top:45%;
+	left:33%;
+	display:block;
+	z-index:2;
+	font-size: 28px;
+	letter-spacing: 4px;
+	font-family:Cursive;
+	color:#E0FFFF;
+}	
+#maindiv{
+	width:800px;
+	height:600px;
+	background-image: url(../image/map.jpg);
+	display:none;
+}
+#box{
+	position:absolute;
+	width: 200px; 
+	height: 20px;
+	top:610px;
+	left:600px;
+	background-color: #FF0000;
+	}
+#scorediv{
+	font-size:20px;
+	font-weight:bold;
+	font-family:Cursive;
+	position:absolute;
+	top:610px;
+	left:10px;
+	display:none;
+}
+#timediv{
+	font-size:20px;
+	font-weight:bold;
+	font-family:Cursive;
+	position:absolute;
+	top:610px;
+	left:210px;
+	display:none;
+	z-index:10;
+}
+#skilldiv{
+	font-size:20px;
+	font-weight:bold;
+	font-family:Cursive;
+	position:absolute;
+	top:610px;
+	left:400px;
+	display:none;
+	z-index:10;
+}
+#suspenddiv{
+	position:absolute;
+	top:35%;
+	left:35%;
+	display:none;
+	z-index:2;
+}	
+
+#shuomingdiv img{
+    position: absolute;
+    z-index: 1;
+}
+#shuomingdiv{
+	position:absolute;
+	width: 300px;
+    height:150px;
+	top:35%;
+	left:30%;
+	font-size: 25px;
+	letter-spacing: 2px;
+	border:2px double gray;
+	border-radius:10px;
+	text-align:center;
+	font-family:Cursive;
+	color:#E0FFFF;
+    background:rgba(0, 0, 0, 0.4); /*R G B opacity*/
+	display:none;
+	z-index:2;
+}	
+
+#enddiv{
+	position:absolute;
+    width: 180px;
+    height: 210px;
+	top:30%;
+	left:35%;
+	border:2px double gray;
+	border-radius:10px;
+	text-align:center;
+	font-size:20px;
+	font-family:Cursive;
+	color:#E0FFFF;
+    background:rgba(0, 0, 0, 0.6); /*R G B opacity*/
+	display:none;
+	z-index:2;
+}
+	
+	display:none;
+	z-index:2;
+	
